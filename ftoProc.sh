@@ -16,7 +16,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] | 
 "
 FILE="
-*  /This File/ :: /bisos/git/auth/bxRepos/unisos-pip/base/ftoProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/unisos-pip/ftoProc.sh 
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@" 
@@ -53,6 +53,15 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+x822Msg
+icm
+icmExamples
+overview
+ucf
+namespace
+utils
+githubApi
+common
 "
 # }}} DBLOCK-nodesList
 ####+END:
