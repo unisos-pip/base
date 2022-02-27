@@ -57,18 +57,18 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-overview
+symCrypt
+githubApi
+gcipher
 icmExamples
 utils
-namespace
-icm
 common
-symCrypt
 ucf
-githubApi
+overview
+namespace
 cryptKeyring
+icm
 x822Msg
-gcipher
 "
 # }}} DBLOCK-nodesList
 ####+END:
